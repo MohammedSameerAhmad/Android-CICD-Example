@@ -31,5 +31,5 @@ jobs:
             --app "md.sameerahmed8-gmail.com/AndroidCICDExample" \
             --file "app/build/outputs/apk/debug/app-debug.apk" \
             --group "Collaborators" \
-            --token "${{ eb3075ccbad46bde9179cb224a4174b0cf65bf59 }}" \
+            --token "eb3075ccbad46bde9179cb224a4174b0cf65bf59" \
             --release-notes "Build from GitHub Actions"
