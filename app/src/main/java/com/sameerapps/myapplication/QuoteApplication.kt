@@ -17,8 +17,4 @@ class QuoteApplication: Application() {
         val quoteDatabase = QuoteDatabase.getDatabase(context = this)
         quoteRepository = QuoteRepository(retrofit, quoteDatabase, this)
     }
-
-    fun getQuoteRepository(): QuoteRepository {
-        return quoteRepository;
-    }
 }
